@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(182, 223, 121);
+} 
+.text {
+    text-align: center;
+}
+.formulaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-gap: 40px;
+}
+
+.form-1 {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.form-2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+
+.form-3 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+
+.form-4 {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+
+.form-5 {
+    grid-column: 1/6;
+    grid-row: 4/5;
+    border: 1px solid black;
+}
+
+.form-6 {
+    grid-column: 1/6;
+    grid-row: 5/6;
+    border: 1px solid black;
+}
+
+.form-7 {
+    grid-column: 1/6;
+    grid-row: 6/7;
+    border: 1px solid black;
+}
+
+.form-8 {
+    grid-column: 1/6;
+    grid-row: 7/8;
+    border: 1px solid black;
+}
+
+.form-9 {
+    grid-column: 1/6;
+    grid-row: 8/9;
+    border: 1px solid black;
+}
+
+.form-10 {
+    grid-column: 1/6;
+    grid-row: 9/10;
+    border: 1px solid black;
+}
+
+.form-11 {
+    grid-column: 1/6;
+    grid-row: 10/11;
+    border: 1px solid black;
+}
+
+.form-12 {
+    grid-column: 1/6;
+    grid-row: 11/12;
+    border: 1px solid black;
+}
+
+.form-13 {
+    grid-column: 1/2;
+    grid-row: 12/13;
+    border: 1px solid black;
+}
+
+.form-14 {
+    grid-column: 2/3;
+    grid-row: 12/13;
+    border: 1px solid black;
+}
+
+.form-15 {
+    grid-column: 3/4;
+    grid-row: 12/13;
+    border: 1px solid black;
+}
+
+.form-16 {
+    grid-column: 4/5;
+    grid-row: 12/13;
+    border: 1px solid black;
+}
+
+.form-17 {
+    grid-column: 1/6;
+    grid-row: 13/14;
+    border: 1px solid black;
+}
+
+.form-18 {
+    grid-column: 5/6;
+    grid-row: 14/15;
+    border: 1px solid black;
+}
+.projet {
+    color: blue;
+    text-align: center;
+    text-decoration: overline;
+}
